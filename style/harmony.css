@@ -1,0 +1,268 @@
+/*** The Essential Code ***/
+
+body {
+    min-width: 977px; /* 2 x LC width + RC width */
+
+}
+
+#container {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 977px;
+    min-width: 977px;
+}
+
+#column-center {
+    width: 480px;
+}
+
+#column-left {
+    width: 238px;
+}
+
+#column-right {
+    width: 238px;
+}
+
+#page-footer {
+    clear: both;
+}
+
+
+
+
+/*** Just for Looks ***/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #dac89d;
+    color: #333333;
+    font-size: 11px;
+    line-height: 150%;
+    font-family: Arial;
+}
+
+#container {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #333333;
+    background-color: #fff; 
+    box-shadow: 0px 5px 10px #333333;
+    -webkit-box-shadow: 0px 5px 10px #333333;
+    -moz-box-shadow: 0px 5px 10px #333333;
+
+}
+
+#page-header {
+    position: relative;
+    -moz-border-radius-topleft: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-right-radius: 10px;
+    height: 90px;
+}
+
+
+
+#page-header, #page-footer {
+    background-color: #62804D;
+    padding: 0.3em 0;
+    margin: 5px;
+}
+
+#page-footer {
+    height: 20px;
+    -moz-border-radius-bottomleft: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottompright: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+	color:#ffffff;
+	padding-left:244px;
+	padding-top:7px;
+	font-weight:bold;
+}
+
+#page-body {
+    width:967;
+    margin:5px;
+    background: url(page_body_background.gif) repeat-y;
+}
+
+#page-body.home {
+    background: #ffffff;
+}
+
+
+#column-left {
+}
+
+
+
+#column-right {
+}
+
+#column-center {
+    padding: 0 20px;
+}
+
+#column-center.home {
+    padding: 0 5px;
+
+}
+
+#column-center div:first-child {
+    margin-bottom:30px;
+}
+
+#column-center.home div:first-child {
+    margin-bottom:0px;
+}
+
+#logo {
+    position: absolute;
+    display: inline;
+    bottom: 10px;
+    left: 20px;
+
+}
+
+#tagline {
+    position: absolute;
+    display: inline;
+    bottom: 6px;
+    right: 12px;
+
+}
+
+.sidebar {
+    background: #91A682;
+    height:338px;
+}
+
+.sidebar p {
+    color: #FFFFFF;
+}
+
+.info {
+    padding: 20px 30px 20px 20px;
+    background: #E0E6DB;
+   
+}
+
+.info h3 {
+    margin:0 0 10px 0;
+}
+
+dt {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+dd {
+    margin: 0px;;
+}
+
+.column-right-photo {
+    /*margin: 0px 5px 0px 5px;*/
+    /*padding-bottom: 5px;*/
+    background: #ffffff;
+}
+
+h5 {
+    font-size:11px;
+    font-weight:bold;
+    display: inline;
+    maring:0;
+    padding:0;
+
+}
+
+h3 {
+    font-size:11px;
+    margin: 20px 0 0 0;
+}
+
+h3 + p, img + p, dl {
+    margin-top: 0;
+}
+
+h3.page-title {
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+a:link, a:visited, a:active {
+    color: #374c6e;
+}
+
+#page-body ul {
+    margin: 5px 0px 0px 5px;
+    padding-left: 1em;
+}
+
+#inline-list {
+    margin: 20px 0 10px 0;
+}
+
+#inline-list ul, #inline-list li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#inline-list li {
+    padding-right: 30px;
+}
+
+#navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    border: none;
+}
+
+#navigation li {
+    margin: 0;
+    background: url(nav_divider_line.gif) no-repeat 20px 0px;
+}
+
+#navigation li:first-child {
+    background:none;
+}
+
+#navigation li a {
+    display: block;
+    padding: 8px 0px 4px 22px;
+    /*background: url(../images/nav_divider_line.gif) no-repeat 0 25px;*/
+    text-decoration: none;
+    width: 100%;
+}
+
+html>body #navigation li a {
+    width: auto;
+}
+
+#navigation li a:hover, #navigation li a.selected {
+    background: url(rollover_state.gif) no-repeat 7px 8px;
+}
+
+#navigation li.snav {
+    background:none;
+}
+
+#navigation li.snav a {
+    padding: 2px 0px 0px 22px;
+}
+
+#navigation li.snav a:hover, #navigation li.snav a.selected {
+    background: url(rollover_state.gif) no-repeat 7px 2px;
+}
+
+.note {
+    font-style:italic;
+}
+
